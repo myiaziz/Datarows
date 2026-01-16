@@ -6,7 +6,7 @@ from collections import defaultdict, deque
 from itertools import chain
 from typing import Any, DefaultDict, Dict, List
 
-from .pdf import PDF
+from pdf import PDF
 
 
 def parse_page_spec(p_str: str) -> List[int]:
